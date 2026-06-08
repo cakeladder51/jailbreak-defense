@@ -1,0 +1,19 @@
+# Compiled dataset files (contain harmful prompts - not for public repo)
+all_prompts.json
+all_prompts.jsonl
+advbench_raw.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
