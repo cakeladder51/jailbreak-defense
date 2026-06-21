@@ -1,0 +1,12 @@
+import pandas as pd
+
+wanted_columns = ["prompt", "p_ratio_norm", "baseline_response", "logit_biasing_response"]
+
+with pd.read_csv("results_parallel/results_Qwen2.5-3B.csv", usecols=wanted_columns, chunksize=100) as reader:
+    for chunk in reader:
+        # Filter rows where p_ratio_norm is greater than 1.4
+        interesting_results = chunk[chunk["p_ratio_norm"] > 1.4]
+        
+        # Save the interesting results to a new CSV file
+        interesting_results.to_csv("interesting_results.csv", mode='a', index=False, header=not pd.io.common.file_exists("interesting_results.csv"))
+
