@@ -1,0 +1,13 @@
+# Environment variables / secrets
+.env
+secrets.txt
+
+# Compiled adversarial prompts (contains harmful jailbreak content — regenerate with compile_datasets.py)
+all_prompts.json
+all_prompts.jsonl
+
+# Downloaded raw benchmark CSVs
+advbench_raw.csv
+
+# Generated run artifacts
+cgp_out/
