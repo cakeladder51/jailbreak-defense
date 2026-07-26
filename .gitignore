@@ -1,0 +1,15 @@
+# Repo-wide safety ignores
+
+# Compiled adversarial prompts — harmful jailbreak content, regenerate with compile_datasets.py
+all_prompts*
+**/all_prompts*
+
+# Secrets / environment
+.env
+**/.env
+secrets.txt
+**/secrets.txt
+
+# Generated run artifacts
+cgp_out/
+**/cgp_out/
