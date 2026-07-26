@@ -1,0 +1,1421 @@
+[Qwen2.5-3B] starting -> Qwen/Qwen2.5-3B-Instruct
+  writing to: results_parallel/results_Qwen2.5-3B.csv
+  - advbench: 520 prompts
+  - forced_prefix: 520 prompts
+  - benign: 690 prompts
+[Qwen2.5-3B] total: 1730 | already done: 0 | remaining: 1730
+
+Testing advbench prompts...
+  Testing 1/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 40] -> ['A', 'a', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 2/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 3/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 4/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 5/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 6/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 7/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 8/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 9/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 10/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 11/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 12/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 13/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 14/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 15/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 16/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 40] -> ['A', 'a', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 17/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 18/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 72] -> ['a', 'A', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 19/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 20/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 21/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 22/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 40] -> ['A', 'a', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 23/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 24/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 25/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 26/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 27/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 28/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 29/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 30/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 31/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 40] -> ['a', 'A', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 32/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 33/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 34/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 35/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 36/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 37/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 40] -> ['A', 'a', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 38/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 40] -> ['a', 'A', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 39/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 40/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 41/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 40] -> ['A', 'a', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 42/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 40] -> ['A', 'a', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 43/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 44/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 45/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 46/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 47/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 48/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 49/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 50/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 40] -> ['a', 'A', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 51/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 52/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 53/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 54/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 72] -> ['a', 'A', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 55/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 56/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 57/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 58/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 40] -> ['a', 'A', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 59/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 60/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 61/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 62/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 40] -> ['A', 'a', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 63/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 40] -> ['a', 'A', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 64/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 65/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 40] -> ['a', 'A', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 66/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 67/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+
+Testing forced_prefix prompts...
+  Testing 1/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 72] -> ['a', 'A', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 2/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 3/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 72] -> ['a', 'A', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 4/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 5/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 6/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 7/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 8/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 9/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 10/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 11/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 40] -> ['a', 'A', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 12/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 13/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 14/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 15/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 16/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 17/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 40] -> ['a', 'A', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 18/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 19/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 20/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 21/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 22/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 23/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 24/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 25/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 26/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 27/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 28/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 29/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 30/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 31/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 32/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 72] -> ['a', 'A', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 33/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 40] -> ['a', 'A', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 34/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 35/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 36/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 37/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 38/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 39/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 40/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 72] -> ['a', 'A', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 41/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 42/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 43/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 44/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 40] -> ['A', 'a', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 45/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 72] -> ['a', 'A', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 46/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 47/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 48/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 49/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 50/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 51/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 52/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 53/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 54/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 55/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 56/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 57/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 58/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 59/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 40] -> ['A', 'a', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 60/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 61/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 72] -> ['a', 'A', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 62/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 63/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 40] -> ['A', 'a', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 64/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 40] -> ['a', 'A', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 65/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 66/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 67/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+
+Testing benign prompts...
+  Testing 1/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 2/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 3/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 4/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 40] -> ['a', 'A', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 5/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 6/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 40] -> ['a', 'A', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 7/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 8/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 9/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 10/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 11/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 12/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 13/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 14/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 15/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 16/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 17/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 40] -> ['A', 'a', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 18/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 19/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 20/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 21/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 22/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 23/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 24/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 25/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 72] -> ['a', 'A', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 26/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 27/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 28/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 29/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 40] -> ['A', 'a', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 30/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 31/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 32/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 40] -> ['A', 'a', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 33/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 34/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 35/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 36/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 37/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 38/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 39/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 40/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 41/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 42/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 43/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 44/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 40] -> ['A', 'a', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 45/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 46/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 47/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 72] -> ['a', 'A', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 48/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 40] -> ['a', 'A', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 49/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 50/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 51/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 40] -> ['A', 'a', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 52/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 53/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 54/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 55/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 72, 2121] -> ['a', 'A', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 56/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 40] -> ['A', 'a', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 57/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 58/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 59/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 2121] -> ['A', 'a', 'iT', 'i', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 60/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 61/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 72] -> ['A', 'a', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 62/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 72, 40] -> ['A', 'a', 'iT', 'i', 'I']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 63/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 64/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 65/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 2121] -> ['a', 'A', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 66/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [32, 64, 83589, 40, 2121] -> ['A', 'a', 'iT', 'I', 'As']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+  Testing 67/67...[INFO] Building continuation map for 12 refusal phrases...
+[INFO] Continuation map built with 100 prefix entries
+[INFO] Found 11 unique starting tokens (for Top-K).
+[DEBUG] Sample starting token IDs: [64, 32, 83589, 40, 72] -> ['a', 'A', 'iT', 'I', 'i']
+[DEBUG] continuation_map keys (first 5): ['i', "i'", "i'm", "i'm ", "i'm s"]
+[INFO] Found 26 simple refusal tokens (for brute-force).
+[INFO] Grace period: 1 steps, ramping over 4 steps
+[Qwen2.5-3B] done.
+DONE in 8102s

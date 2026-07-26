@@ -94,10 +94,15 @@ class RefusalLogitsProcessor(transformers.LogitsProcessor):
         self.continuation_map = self._build_continuation_map()
         
         self.starting_token_ids = set()
-        for phrase in self.refusal_phrases:
-            first_char = phrase[0]
-            if first_char in self.continuation_map:
-                self.starting_token_ids.update(self.continuation_map[first_char])
+        _vocab = self.tokenizer.get_vocab()
+        for token_str, token_id in _vocab.items():
+            normalized = self._normalize_token_text(token_str)
+            if not normalized:
+                continue
+            for phrase in self.refusal_phrases:
+                if phrase.startswith(normalized):
+                    self.starting_token_ids.add(int(token_id))
+                    break
         self.starting_token_ids = list(self.starting_token_ids)
 
         # 2. Build simple, brute-force token list (for interruptions)
@@ -112,6 +117,9 @@ class RefusalLogitsProcessor(transformers.LogitsProcessor):
 
         print(f"[INFO] Continuation map built with {len(self.continuation_map)} prefix entries")
         print(f"[INFO] Found {len(self.starting_token_ids)} unique starting tokens (for Top-K).")
+        _sample = self.starting_token_ids[:5]
+        print(f"[DEBUG] Sample starting token IDs: {_sample} -> {[self.tokenizer.decode([t]) for t in _sample]}")
+        print(f"[DEBUG] continuation_map keys (first 5): {list(self.continuation_map.keys())[:5]}")
         print(f"[INFO] Found {len(self.refusal_token_ids_simple)} simple refusal tokens (for brute-force).")
         print(f"[INFO] Grace period: {self.grace_period} steps, ramping over {self.ramp_steps} steps")
 
@@ -290,18 +298,19 @@ def _load_model_once(model_id: str):
     global DTYPE, _worker_tokenizer, _worker_model, pipeline, HF_TOKEN, _worker_device
     if _worker_model is not None:
         return
+    _token = HF_TOKEN or None  # avoid empty-string "Bearer " header crash
     _worker_model = AutoModelForCausalLM.from_pretrained(
             model_id,
-            token=HF_TOKEN,
+            token=_token,
             torch_dtype=DTYPE,
             device_map={"": torch.cuda.current_device()},
             trust_remote_code=True,
     ).eval()
-    _worker_device = next(_worker_model.parameters()).device 
+    _worker_device = next(_worker_model.parameters()).device
 
     _worker_tokenizer = AutoTokenizer.from_pretrained(
         model_id,
-        token=HF_TOKEN,
+        token=_token,
         trust_remote_code=True,
         use_fast=True
     )
@@ -655,7 +664,20 @@ def model_prompting(row_id, prompt, source, initial_bias, max_bias, ramp_steps, 
 
     # 1. Define the words you want to steer the model towards
     # This is the start of your desired refusal message
-    refusal_target_phrases = []
+    refusal_target_phrases = [
+        "I'm sorry",
+        "I apologize",
+        "I cannot",
+        "I can't",
+        "I am unable",
+        "I'm unable to",
+        "I won't",
+        "I will not",
+        "I must decline",
+        "As an AI",
+        "It wouldn't be appropriate",
+        "I'm not able to",
+    ]
 
     # print("*"*60)
     
