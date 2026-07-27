@@ -10,3 +10,6 @@ advbench_raw.csv
 
 # Generated run artifacts
 cgp_out/
+
+# Per-run driver logs (transient; regenerate by re-running)
+tools/run_*.log

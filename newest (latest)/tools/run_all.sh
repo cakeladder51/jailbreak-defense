@@ -26,7 +26,12 @@ run() {
   fi
 }
 
+# Three models, three labs, ALL bf16. Keeping the precision fixed is deliberate: 4-bit
+# changes the logprobs p_ratio_norm is built from, so a cross-model AUC gap under mixed
+# precision would be part model, part dtype. All three fit in 16 GB at bf16 (gemma ~8.6,
+# qwen ~6.2, phi-3-mini ~7.6). Llama-3.1-8B is excluded here for exactly that reason --
+# it needs 4-bit on this card. Run it separately if you want the size comparison.
 run gemma_bf16 gemma-3-4b bf16
-run gemma_4bit gemma-3-4b 4bit
 run qwen_bf16  qwen2.5-3b bf16
+run phi3_bf16  phi-3-mini bf16
 echo "### ALL GPU RUNS FINISHED $(date +%H:%M:%S)"

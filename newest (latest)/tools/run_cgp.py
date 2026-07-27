@@ -20,7 +20,13 @@ exec(compile(S(2), "<config>", "exec"), g)          # cell 2: config (MODE="real
 mid = g["MODELS"][MODEL_KEY]
 g["RUN_TAG"]    = TAG
 g["MODELS"]     = {MODEL_KEY: mid}
-g["MODEL_LOAD"] = {MODEL_KEY: {"quant": QUANT}}
+# Keep the model's other MODEL_LOAD flags (e.g. trust_remote_code=False for phi-3-mini)
+# and override only the precision. Replacing the whole dict with {"quant": QUANT} silently
+# dropped those flags -- phi-3-mini then loaded the stale hub modeling_phi3.py and died on
+# KeyError 'type', even though the same model loaded fine outside this driver.
+load = dict((g.get("MODEL_LOAD") or {}).get(MODEL_KEY) or {})
+load["quant"] = QUANT
+g["MODEL_LOAD"] = {MODEL_KEY: load}
 print(f"=== RUN {TAG}: {MODEL_KEY} ({mid}) quant={QUANT} "
       f"n_per_ds={g['N_PER_DATASET']} n_benign={g['N_BENIGN']} ===", flush=True)
 
