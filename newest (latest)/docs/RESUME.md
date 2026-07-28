@@ -1,6 +1,17 @@
-# Resume here — state as of 2026-07-28 ~01:00
+# Resume here — state as of 2026-07-28 12:30
 
 Working notes for picking this back up. Delete or rewrite when the next milestone lands.
+
+> **All three hard-benign runs are complete.** Full result:
+> [`hard_benign_run_2026-07-28.md`](hard_benign_run_2026-07-28.md). Headline: the controls were
+> riding the benign-set confound and collapse against XSTest, but so does the shipped
+> `p_ratio_norm` on phi — it beats a free control on only **1 of 3** models against hard benign.
+> `bias_is_refusal` beats it on **3 of 3** and is the most stable signal (max drop 0.029).
+> **The open decision is whether `RATIO_KEY` becomes `bias_is_refusal`** — that reduces CGP to
+> "run a refusal-biased generation; if the model takes the bait, serve that refusal", which is
+> robust but discards the plausibility ratio the paper is built on. See that doc's final section.
+> The phi run survived an overnight machine sleep (row 11 shows 10h46m elapsed) and resumed
+> correctly — checkpointing works as documented.
 
 ## Where things stand
 
