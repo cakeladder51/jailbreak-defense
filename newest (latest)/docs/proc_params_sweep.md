@@ -1,5 +1,41 @@
 # Why `PROC_PARAMS` is set the way it is
 
+> ## ⛔ CORRECTION, 2026-07-27 (later the same day) — Finding 2 and the decision are wrong
+>
+> This document scores separation with attacks as the positive class and treats "AUC below
+> 0.5" as inversion. CGP predicts the **opposite**: *gap below threshold → serve the
+> refusal*, i.e. attacks should have the **smaller** gap, and `fit_threshold` learns that
+> sign. So the sweep's own numbers say the reverse of what Finding 2 claims.
+>
+> Re-derived with oriented AUC (`max(AUC, 1−AUC)`) from `proc_params_sweep_rows.csv`:
+>
+> | combo | max_bias | oriented, all | oriented, ex-cipher |
+> |---|---|---|---|
+> | current | 10 | 0.521 | 0.608 |
+> | fastramp / instant10 | 10 | 0.536 | 0.608 |
+> | instant15 | 15 | 0.643 | 0.750 |
+> | instant25 | 25 | **0.679** | **0.792** |
+>
+> Separation improves **monotonically with `max_bias`**, and improves further once the
+> cipher rows are removed. "Above bias 10 the benign rows move first and move most … the
+> `max_bias=50` failure mode arriving early, not a stronger defense" describes benign
+> prompts acquiring a *larger* gap than attacks — which is precisely what the method wants.
+> The empirical case against the paper's `max_bias=50` is **not** supported by this data.
+>
+> The decision to keep `initial_bias=2.0, max_bias=10.0, ramp_steps=4, grace_period=1` does
+> not follow from the corrected reading either. `max_bias` is now an open question, to be
+> re-swept per model against a hard benign set, using oriented AUC.
+>
+> Finding 1 (the ramp schedule is not the binding constraint below `max_bias=10`; 22 of 24
+> rows byte-identical) is **unaffected** — it rests on text-identity counts, not on AUC.
+> Finding 3 is unaffected in substance but should be read with the orientation fixed.
+>
+> A further correction to the *planned* follow-up: gating on "the biased path produced a
+> clean refusal" cannot work as a validity filter — **zero benign rows produce a refusal at
+> any setting in this grid**, so the gate would discard the entire benign class. That
+> asymmetry makes it a strong *feature* instead; see the correction block in
+> [`three_model_run_2026-07-27.md`](three_model_run_2026-07-27.md).
+
 **Date:** 2026-07-27 · **Model:** `google/gemma-3-4b-it`, bf16 · **Hardware:** RTX 5070 Ti (16 GB)
 **Code:** branch `fix/refusal-processor-start-ids` at `5b04e7d` (i.e. *after* the `start_ids` fix)
 **Data (in repo):** [`proc_params_sweep_rows.csv`](proc_params_sweep_rows.csv) — 144 rows

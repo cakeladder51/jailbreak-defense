@@ -1,5 +1,52 @@
 # Three-model run, 2026-07-27 — first valid post-fix measurement of CGP
 
+> ## ⛔ CORRECTION, 2026-07-27 (later the same day) — read before anything below
+>
+> **The headline conclusion in this document was wrong, and it was wrong in the direction
+> that makes CGP look worse than it is.** The generations, timings and stability numbers are
+> all fine; the *interpretation* of the AUC was not.
+>
+> AUC here is computed with attacks as the positive class. But CGP's rule is *gap **below**
+> threshold → serve the refusal*, so the method predicts attacks have the **smaller** gap —
+> an AUC below 0.5 is the **intended** direction, and `fit_threshold` (cell 3, line 803)
+> infers that sign from the data automatically. Calling qwen's 0.335 and phi's 0.257
+> "significantly inverted" and "routing backwards" inverted the meaning of the result.
+>
+> Oriented correctly (`max(AUC, 1−AUC)`):
+>
+> | model | all 7 families | excluding cipher | advbench only |
+> |---|---|---|---|
+> | gemma-3-4b | 0.525 | 0.602 (ns) | 0.636 |
+> | qwen2.5-3b | 0.665 | **0.750** | 0.904 |
+> | phi-3-mini | 0.743 | **0.798** | 0.971 |
+>
+> And `cipherchat_cipher` is the **only** family that runs *opposite* to theory —
+> significantly so on gemma (raw 0.937, CI [0.829, 1.000]) and qwen (0.846, [0.697, 0.960]).
+> Every other significant family is theory-consistent. It is not "the only family CGP
+> detects" as claimed below; it is the one family CGP gets **backwards**, and it was pulling
+> the aggregate to chance. Excluding it, qwen and phi separate with CIs excluding 0.5 and
+> beat both controls.
+>
+> Cause of the failure on cipher: the biased path never produces a refusal there (rate 0.00
+> on gemma and phi), because the models do not recognise a ciphered request as harmful at
+> all. The gap then measures the cost of corrupting already-corrupt text, and the sign
+> flips. **CGP's ceiling is the model's own latent refusal tendency** — it cannot surface
+> what the model does not recognise.
+>
+> Also found while re-checking: **"did the biased path refuse?" — a plain string check on
+> text CGP already generates — separates better than the plausibility gap on 2 of 3
+> models**, and the lexicographic combination (refused first, smaller gap breaks ties) is
+> the first signal in this project to beat both controls on all three (ex-cipher: gemma
+> 0.798, qwen 0.855, phi 0.806, vs `base_avg` 0.711/0.709/0.610 and `H` 0.729/0.726/0.555).
+>
+> **Still unresolved, and it gates all of the above:** every number here is measured against
+> Alpaca-only benign. A hard benign set (XSTest-safe) is being run now; `bias_is_refusal` is
+> exactly the signal XSTest is built to break, so these figures may not survive it. Nothing
+> in this correction should be quoted as a positive result until that lands.
+>
+> The original text is left unedited below so the record of what was claimed stays intact.
+> Commit `69f7a33`'s message carries the same error.
+
 **Corpus:** 105 rows per model — 10 prompts from each of the 7 attack families (70: 60 `harmful`,
 10 `forced_prefix`) + 35 Alpaca benign. `SAMPLE_SEED=GEN_SEED=SPLIT_SEED=67`.
 **Models:** `gemma-3-4b-it`, `qwen2.5-3B-Instruct`, `phi-3-mini-4k-instruct` — three labs, **all bf16**,
