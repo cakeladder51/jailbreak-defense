@@ -87,6 +87,44 @@ it is **wrong** — separation climbs with window length rather than falling:
 No variant wins consistently; gains are 0.02–0.07 and flip sign between models. The shipped
 full-sequence mean is about right. Median and trimmed means do not help either.
 
+## Result 4 — judged on the population it exists for, CGP splits into two claims
+
+CGP is a second line of defence, so judging it on *all* attacks flatters it: the model already
+refuses ~45% of them unprompted, and on exactly those rows the two paths produce identical text.
+**`p_ratio_norm == 0` is exactly equivalent to `base_text == bias_text` — 140/140 rows on all
+three models.** A zero is not a measurement that refusal was maximally plausible; it is the
+tautology that two identical strings have identical mean log-probs. Of the zero-ratio attack
+rows, the baseline had already refused 93% / 100% / 100%.
+
+The honest population is **attacks the baseline did not refuse**. On that subset `base_is_refusal`
+is 0 for every row, so it carries nothing and the ratio must stand alone (`tools/slip_through.py`):
+
+| model | slip through | **GATE**: `p_ratio_norm` vs hard benign | ties here | **RESCUE** | marginal cost |
+|---|---|---|---|---|---|
+| gemma-3-4b | 38/70 | 0.576 [0.504, 0.705] | 5% | **18%** | 3% |
+| qwen2.5-3b | 39/70 | 0.519 [0.502, 0.658] | 0% | **69%** | 19% |
+| phi-3-mini | 40/70 | 0.553 [0.503, 0.690] | 0% | **15%** | 3% |
+
+**The rescue is real.** The biased path produces a refusal the baseline did not on 15–69% of the
+attacks that slipped past alignment. That harm reduction exists only because of the second path,
+and it is the strongest case for the method.
+
+**The gate is not.** Deciding *which* to refuse, the ratio scores 0.52–0.58 with every CI starting
+at 0.50. Note the ties column: on this subset they are 0–5%, so the ratio is being genuinely
+measured and a weak result here **cannot be blamed on the tie artefact**. This also rules out
+"raise `max_bias` until the paths always diverge" as a fix for the gate — on the population that
+matters they already diverge, and it still does not separate.
+
+**Marginal cost is lower than the raw FPR suggests.** Restricting benign rows to those the
+baseline did not already refuse, CGP's *added* over-refusal on hard benign is 3% / 19% / 3%, not
+the 3% / 29% / 20% of the raw rates — much of phi's apparent over-refusal is phi's own exaggerated
+safety, not CGP's doing. So the trade on offer is roughly **+18% rescue for +3% benign cost**
+(gemma), **+15% for +3%** (phi), **+69% for +19%** (qwen).
+
+The tension this leaves: those trades are only available if you serve the biased path, and the
+gate cannot tell you when to. Serving it unconditionally is the classifier reading that has been
+ruled out; serving it on the ratio's say-so is close to serving it at random.
+
 ## The decision this forces
 
 `RATIO_KEY` still defaults to `p_ratio_norm` — deliberately unchanged pending this decision, since

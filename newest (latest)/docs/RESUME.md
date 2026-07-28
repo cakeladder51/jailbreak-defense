@@ -2,6 +2,20 @@
 
 Working notes for picking this back up. Delete or rewrite when the next milestone lands.
 
+> ## Decisions taken 2026-07-28
+> - **Keep the plausibility ratio.** `RATIO_KEY` stays `p_ratio_norm`; CGP is not being reduced to
+>   a refusal classifier, even though `bias_is_refusal` scores better. `bias_is_refusal` /
+>   `refusal_then_gap` remain banked and reported as *analysis*, not as the decision rule.
+> - **Evaluate on the slip-through population, not all attacks** — CGP is a second line of
+>   defence, so the rows that matter are the attacks alignment let through. `tools/slip_through.py`.
+>   That framing splits the method into a RESCUE claim (works: 15–69% of slipped-through attacks
+>   refused, for 3–19% added benign cost) and a GATE claim (does not: 0.52–0.58, CIs from 0.50).
+> - **Ruled out:** raising `max_bias` to fix the gate. On the slip-through subset ties are already
+>   0–5%, so the ratio is genuinely measured there and still does not separate.
+>
+> **The open question is the gate.** Either find a third reading of the two paths that works as
+> one, or report the rescue rate as the contribution and the gate as the honest limitation.
+>
 > **All three hard-benign runs are complete.** Full result:
 > [`hard_benign_run_2026-07-28.md`](hard_benign_run_2026-07-28.md). Headline: the controls were
 > riding the benign-set confound and collapse against XSTest, but so does the shipped
